@@ -1,0 +1,8 @@
+<figure class="max-w-lg">
+  <ng-container *ngIf="product">
+    <img class="h-auto max-w-full rounded-lg" [src]="product.thumbnail" alt="image description">
+    <p class="text-3xl text-gray-900 dark:text-black">Title : {{product.title}}</p>
+    <p class="text-3xl text-gray-900 dark:text-black">Price : {{product.price}}</p>
+    <p class="text-3xl text-gray-900 dark:text-black">Stock : {{product.stock}}</p>
+  </ng-container>
+</figure>
